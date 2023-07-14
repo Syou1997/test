@@ -126,15 +126,17 @@ btnEl.addEventListener("click",function(){
         })
            
     })
+
+
     
     console.log(filterList);
     
-    //拿filterList來用
-    // const reandmNum =Math.floor(Math.random() * filterList.length)
+    拿filterList來用
+    const reandmNum =Math.floor(Math.random() * filterList.length)
 
-    // const result = filterList[reandmNum].name;
+    const result = filterList[reandmNum].name;
 
-    // spanEl.innerText = result;
+    spanEl.innerText = result;
     
 
 })
