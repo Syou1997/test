@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.waku{
+    background-color: rgb(2, 2, 89);
+    
+}
+.syurui{
+    display: flex;
+}
+
+h1{
+    color: white;
+}
+h3,h2{
+    text-align: center;
+    color: white;
+}
+
+.check{
+   display: flex;
+   margin: 0 5px;
+}
+label{
+    color: white;
+    display: block;
+    margin: 0 8px;
+    margin-top: 3px;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 350px;
+    height: 30px;
+    
+}
+span{
+    font-size: 60px;
+}
